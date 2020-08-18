@@ -7,14 +7,14 @@ from datetime import datetime
 
 from imgurpython import ImgurClient
 
-client_id = '463e415e4ff7895'
-client_secret = '314f276c187ac67b5c58b9d6dfbaaa763f0008ca'
+client_id = 'xxx'
+client_secret = 'xxxx'
 
 klien = ImgurClient(client_id, client_secret)
 
 data = pd.read_csv('file.csv')
 data1 = pd.read_csv('bimbing.csv')
-TOKEN = 'NTgzMjY4OTExNDg3Nzc4ODE2.XO55jA.2Gp1QefC_3U4K7VwpJIsdTRr-Q0'
+TOKEN = 'xxxx'
 
 client = discord.Client()
 swearing = ["kntol","kontol","kntl","kontl","anjing","ajg","bgsd","bgst","bangsat","goblog","gblg","goblok","tai","taek","asu"]
